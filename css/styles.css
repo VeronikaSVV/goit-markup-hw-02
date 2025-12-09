@@ -59,14 +59,18 @@ a{
         text-align: center;
         color: #fff;
 }
-.button-solotion{
-    background-color: #4d5ae5;
+.button-solution{
+        background-color: #4d5ae5;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-
+        cursor: pointer;
+}
+.button-solution:hover,
+.button-solution:focus{
+        background-color:#404bbf
 }
 .title-features-items{
         font-weight: 500;
@@ -84,6 +88,14 @@ a{
 }
 .section-team{
     background-color: #f4f4fd;
+}
+.title-team{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
 }
 .team-items{
     background: #fff;
